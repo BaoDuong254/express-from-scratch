@@ -1,0 +1,28 @@
+{
+    "name": "express-from-scratch",
+    "version": "1.0.0",
+    "description": "How to build basic Express.js from scratch",
+    "keywords": [],
+    "homepage": "https://github.com/BaoDuong254/express-from-scratch#readme",
+    "bugs": {
+        "url": "https://github.com/BaoDuong254/express-from-scratch/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/BaoDuong254/express-from-scratch.git"
+    },
+    "license": "ISC",
+    "author": "BaoDuong254 <duonggiabao254@gmail.com>",
+    "type": "commonjs",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon index.js",
+        "format": "prettier --write ."
+    },
+    "dependencies": {
+        "prettier": "^3.5.3"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.9"
+    }
+}
